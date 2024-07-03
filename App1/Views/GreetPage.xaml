@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="App1.Views.GreetPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <StackLayout>
+
+        <Label
+            x:Name="rotatingLabel"
+            FontSize="{Binding Source={x:Reference fontSizeSlider}, Path=Value}"
+            HorizontalOptions="Center"
+            Text="Something to be rotated"
+            VerticalOptions="CenterAndExpand" />
+
+        <Slider
+            x:Name="fontSizeSlider"
+            Maximum="50"
+            Minimum="1"
+            MinimumTrackColor="Green" />
+        <Label Text="" />
+        <Slider
+            x:Name="colorSlider"
+            Maximum="5"
+            MinimumTrackColor="Green" />
+        <!--<Label
+            x:Name="lblDegree"
+            BindingContext="{x:Reference slider}"
+            HorizontalOptions="Center"
+            Text="{Binding Value, StringFormat='The angle is {0:F2} degree!'}"
+            VerticalOptions="Center" />-->
+    </StackLayout>
+
+</ContentPage>

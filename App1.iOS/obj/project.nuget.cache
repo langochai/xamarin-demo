@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yINhzKc296U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Latitude 5520\\Desktop\\code playground\\xamarin-demo\\App1\\App1.iOS\\App1.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Latitude 5520\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Latitude 5520\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Latitude 5520\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
